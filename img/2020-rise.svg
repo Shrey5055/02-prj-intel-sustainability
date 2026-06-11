@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" width="260" height="160">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d2e12"/>
+      <stop offset="100%" style="stop-color:#1a6b24"/>
+    </linearGradient>
+  </defs>
+  <rect width="260" height="160" fill="url(#bg6)"/>
+  <!-- Stem -->
+  <line x1="130" y1="130" x2="130" y2="60" stroke="rgba(100,220,120,0.8)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="108" cy="95" rx="22" ry="10" fill="rgba(59,181,74,0.7)" transform="rotate(-30 108 95)"/>
+  <ellipse cx="152" cy="82" rx="22" ry="10" fill="rgba(59,181,74,0.7)" transform="rotate(30 152 82)"/>
+  <!-- Top flower/burst -->
+  <circle cx="130" cy="52" r="16" fill="rgba(59,181,74,0.5)" stroke="rgba(100,220,120,0.8)" stroke-width="2"/>
+  <circle cx="130" cy="52" r="8" fill="rgba(100,220,120,0.9)"/>
+  <!-- RISE text ring -->
+  <circle cx="130" cy="52" r="5" fill="white"/>
+  <!-- Labels: R I S E around the flower -->
+  <text x="130" y="20" font-family="Arial,sans-serif" font-size="13" fill="rgba(150,255,170,0.9)" text-anchor="middle" font-weight="bold">RISE</text>
+  <text x="62" y="38" font-family="Arial,sans-serif" font-size="8" fill="rgba(150,255,170,0.7)" text-anchor="middle">Responsible</text>
+  <text x="198" y="38" font-family="Arial,sans-serif" font-size="8" fill="rgba(150,255,170,0.7)" text-anchor="middle">Inclusive</text>
+  <text x="62" y="75" font-family="Arial,sans-serif" font-size="8" fill="rgba(150,255,170,0.7)" text-anchor="middle">Sustainable</text>
+  <text x="198" y="75" font-family="Arial,sans-serif" font-size="8" fill="rgba(150,255,170,0.7)" text-anchor="middle">Enabling</text>
+  <!-- Ground -->
+  <ellipse cx="130" cy="130" rx="30" ry="8" fill="rgba(59,181,74,0.3)"/>
+  <text x="130" y="150" font-family="Arial,sans-serif" font-size="11" fill="rgba(150,255,170,0.8)" text-anchor="middle" font-weight="bold">2020 · RISE Strategy Launched</text>
+</svg>

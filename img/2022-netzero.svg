@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" width="260" height="160">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001a33"/>
+      <stop offset="100%" style="stop-color:#003C71"/>
+    </linearGradient>
+    <radialGradient id="globe" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#00AEEF"/>
+      <stop offset="100%" style="stop-color:#003C71"/>
+    </radialGradient>
+  </defs>
+  <rect width="260" height="160" fill="url(#bg7)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="25" r="1" fill="white" opacity="0.6"/>
+  <circle cx="80" cy="15" r="1.2" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="20" r="1" fill="white" opacity="0.7"/>
+  <circle cx="220" cy="45" r="1.2" fill="white" opacity="0.4"/>
+  <circle cx="40" cy="55" r="1" fill="white" opacity="0.5"/>
+  <circle cx="210" cy="70" r="1" fill="white" opacity="0.6"/>
+  <!-- Globe -->
+  <circle cx="130" cy="78" r="52" fill="url(#globe)" opacity="0.9"/>
+  <!-- Latitude lines -->
+  <ellipse cx="130" cy="78" rx="52" ry="16" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <ellipse cx="130" cy="62" rx="45" ry="12" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <ellipse cx="130" cy="94" rx="45" ry="12" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Longitude lines -->
+  <ellipse cx="130" cy="78" rx="20" ry="52" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Land masses (simplified) -->
+  <ellipse cx="112" cy="68" rx="18" ry="12" fill="rgba(59,181,74,0.7)" transform="rotate(-15 112 68)"/>
+  <ellipse cx="148" cy="72" rx="14" ry="9" fill="rgba(59,181,74,0.6)" transform="rotate(10 148 72)"/>
+  <ellipse cx="128" cy="88" rx="10" ry="7" fill="rgba(59,181,74,0.5)"/>
+  <!-- Net-zero badge -->
+  <rect x="90" y="136" width="80" height="18" rx="9" fill="rgba(59,181,74,0.85)"/>
+  <text x="130" y="149" font-family="Arial,sans-serif" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold">NET-ZERO 2040</text>
+  <text x="130" y="10" font-family="Arial,sans-serif" font-size="11" fill="rgba(150,200,255,0.8)" text-anchor="middle" font-weight="bold">2022 · Global Commitment</text>
+</svg>
